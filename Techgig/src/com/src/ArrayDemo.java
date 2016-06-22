@@ -52,5 +52,5 @@ public class ArrayDemo {
 		
 		System.out.println(count);
 	}
-
+		System.out.println("just testing");
 }

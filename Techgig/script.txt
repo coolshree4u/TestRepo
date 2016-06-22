@@ -1,0 +1,401 @@
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git add -u
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git status
+On branch Branch1
+nothing to commit, working directory clean
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git commit -m "this is my first branch"
+On branch Branch1
+nothing to commit, working directory clean
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git add -u
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git status
+On branch Branch1
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Techgig/src/com/src/ArrayDemo.java
+
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git commit -m "initial commit"
+[Branch1 461973c] initial commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git status
+On branch Branch1
+nothing to commit, working directory clean
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git log
+commit 461973c8e4453c562513c266d9f3d4d09e2e19e9
+Author: Supriya <ladekar.supriya@gmail.com>
+Date:   Wed Jun 22 13:59:04 2016 +0530
+
+    initial commit
+
+commit 9b35b8afd1c27201a0d37294c7208fc39c9b4374
+Author: Shriprasad Patil <Shriprasad.Patil@Mvtechlabs.com>
+Date:   Wed Jun 22 12:16:53 2016 +0530
+
+    TestRepoCreation
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git push -u
+fatal: The current branch Branch1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Branch1
+
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ git push origin Branch1
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/':
+
+remote: Anonymous access to coolshree4u/TestRepo.git denied.
+fatal: Authentication failed for 'https://github.com/coolshree4u/TestRepo.git/'
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$git push -u origin Branch1
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': ladekar123
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 518 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+To https://github.com/coolshree4u/TestRepo.git
+ * [new branch]      Branch1 -> Branch1
+Branch Branch1 set up to track remote branch Branch1 from origin.
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ ssh
+ssh.exe          ssh-agent.exe    sshd.exe         ssh-keyscan.exe
+ssh-add.exe      ssh-copy-id      ssh-keygen.exe   ssh-pageant.exe
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ ssh-keygen.exe ^C
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/Desktop/Supriya/TestRepo (Branch1)
+$ cd ~
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ ls
+AppData/
+'Application Data'@
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+gitProject/
+IdeaProjects/
+'Java trainig program'/
+Links/
+'Local Settings'@
+Music/
+'My Documents'@
+my-app/
+my-appexit/
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+Oracle/
+Pictures/
+PrintHood@
+Recent@
+'Saved Games'/
+Searches/
+SendTo@
+'Start Menu'@
+Templates@
+Videos/
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ ls -a
+./
+../
+.android/
+.bash_history
+.eclipse/
+.git/
+.gitconfig
+.IdeaIC15/
+.m2/
+.minttyrc
+.oracle_jre_usage/
+.p2/
+.viminfo
+AppData/
+'Application Data'@
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+gitProject/
+IdeaProjects/
+'Java trainig program'/
+Links/
+'Local Settings'@
+Music/
+'My Documents'@
+my-app/
+my-appexit/
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+Oracle/
+Pictures/
+PrintHood@
+Recent@
+'Saved Games'/
+Searches/
+SendTo@
+'Start Menu'@
+Templates@
+Videos/
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ ssh-keygen.exe
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/supriya.ladekar/.ssh/id_rsa):
+Created directory '/c/Users/supriya.ladekar/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/supriya.ladekar/.ssh/id_rsa.
+Your public key has been saved in /c/Users/supriya.ladekar/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:9PxS2dnOzPW7nMMgKNII9QuqNFexCVFfReQXjYJp50k Supriya.Ladekar@PT1119LT
+The key's randomart image is:
++---[RSA 2048]----+
+|   .o.   .*+ .o  |
+|   . o. .+.E ... |
+|    o =.o +.o.   |
+|   . = o o o.o o |
+|    + + S + o o o|
+| o o o + . + . =o|
+|. +   . . . o o *|
+| .         .  .oo|
+|               =o|
++----[SHA256]-----+
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ ls -a
+./
+../
+.android/
+.bash_history
+.eclipse/
+.git/
+.gitconfig
+.IdeaIC15/
+.m2/
+.minttyrc
+.oracle_jre_usage/
+.p2/
+.ssh/
+.viminfo
+AppData/
+'Application Data'@
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+gitProject/
+IdeaProjects/
+'Java trainig program'/
+Links/
+'Local Settings'@
+Music/
+'My Documents'@
+my-app/
+my-appexit/
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+Oracle/
+Pictures/
+PrintHood@
+Recent@
+'Saved Games'/
+Searches/
+SendTo@
+'Start Menu'@
+Templates@
+Videos/
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ ls -a | grep id_
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ ls -a | grep .id_
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ cd .ssh/
+l
+Supriya.Ladekar@PT1119LT MINGW64 ~/.ssh (supTest)
+$ ls
+id_rsa  id_rsa.pub
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/.ssh (supTest)
+$ ls -ltr
+total 5
+-rw-r--r-- 1 Supriya.Ladekar 1049089 1675 Jun 22 14:12 id_rsa
+-rw-r--r-- 1 Supriya.Ladekar 1049089  406 Jun 22 14:12 id_rsa.pub
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/.ssh (supTest)
+$ date
+Wed, Jun 22, 2016  2:12:48 PM
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/.ssh (supTest)
+$ view id_rsa.pub
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/.ssh (supTest)
+$ ls
+id_rsa  id_rsa.pub
+
+Supriya.Ladekar@PT1119LT MINGW64 ~/.ssh (supTest)
+$ cd -
+/c/Users/supriya.ladekar
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ cd /c/
+$Recycle.Bin/              Documents and Settings/    Program Files/
+11a85225023171f1a24c/      Drivers/                   Program Files (x86)/
+app/                       hiberfil.sys               ProgramData/
+apps/                      installAgent.log           System Recovery/
+Boot/                      Intel/                     System Volume Information/
+bootmgr                    msdia80.dll                TEMP/
+BOOTSECT.BAK               pagefile.sys               ubuntu/
+Config.Msi/                PerfLogs/                  Users/
+dell/                      PGPWDE00                   Windows/
+dell.sdr                   PGPWDE01
+Dev_Tools/                 PGPWDE02
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ cd /c/Documents\ and\ Settings/
+admin/           All Users/       Default User/    Public/
+Administrator/   Default/         desktop.ini      supriya.ladekar/
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ cd /c/Documents\ and\ Settings/supriya.ladekar/D
+Desktop/   Documents/ Downloads/
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ cd /c/Documents\ and\ Settings/supriya.ladekar/Desktop/
+~$l training.docx                        Oraclewin64_11gR2_database/
+Ans.txt                                  PProgams/
+AWS/                                     Questions of Unix.txt
+Copy of Picnic Details.xlsx              SF-Problem21.pdf
+Copy of Transport Requisition Form.xlsx  SQL assignment 2.docx
+desktop.ini                              SQL Assignment 2.txt
+eclipse - Shortcut.lnk                   SQL Assignment 3.txt
+Even Team.docx                           SQL assignment.docx
+Git Bash.lnk                             sql training 1.docx
+Google Chrome.lnk                        sql training.docx
+HeadFirstJava2ndEdition.pdf              Supriya/
+java/                                    Unix.txt
+Maven/                                   Updated_Unix_Questions_Answer.docx
+maven cmd.txt                            Version Control.docx
+
+Supriya.Ladekar@PT1119LT MINGW64 ~ (supTest)
+$ cd /c/Documents\ and\ Settings/supriya.ladekar/Desktop/Supriya/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya (supTest)
+$ ls
+TestRepo/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya (supTest)
+$ ls
+TestRepo/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya (supTest)
+$ cd TestRepo/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo (Branch1)
+$ ls
+Techgig/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo (Branch1)
+$ ls
+Techgig/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo (Branch1)
+$ cd Techgig/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo/Techgig (Branch1)
+$ ls
+bin/  src/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo/Techgig (Branch1)
+$ touch abc
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo/Techgig (Branch1)
+$ git add abc
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo/Techgig (Branch1)
+$ ls -l
+total 0
+-rw-r--r-- 1 Supriya.Ladekar 1049089 0 Jun 22 14:18 abc
+drwxr-xr-x 1 Supriya.Ladekar 1049089 0 Jun 22 12:33 bin/
+drwxr-xr-x 1 Supriya.Ladekar 1049089 0 Jun 22 12:33 src/
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo/Techgig (Branch1)
+$ git commit -m "adding file abc"
+[Branch1 47cd1aa] adding file abc
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Techgig/abc
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo/Techgig (Branch1)
+$ git status
+On branch Branch1
+Your branch is ahead of 'origin/Branch1' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo/Techgig (Branch1)
+$ git push origin Branch1
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 315 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+To https://github.com/coolshree4u/TestRepo.git
+   461973c..47cd1aa  Branch1 -> Branch1
+
+Supriya.Ladekar@PT1119LT MINGW64 /c/Documents and Settings/supriya.ladekar/Desktop/Supriya/TestRepo/Techgig (Branch1)
+$ git commit -m "adding file abc"
